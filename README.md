@@ -7,7 +7,7 @@ This is a full-stack eCommerce application built with Spring Boot and MySQL. It 
 ## Prerequisites
 * JDK 23
 * MySQL
-* IDE (IntelliJ IDEA, Eclipse, VS Code, etc.)
+* IDE of your choice (IntelliJ IDEA, Eclipse, VS Code, etc.)
 
 
 ## Setup and Installation
