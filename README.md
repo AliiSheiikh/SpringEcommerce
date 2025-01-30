@@ -6,11 +6,11 @@ This is a full-stack eCommerce application built with Spring Boot and MySQL. It 
 
 ## Prerequisites
 * JDK 23
-* PostgresSQL 
+* MySQL
 * IDE (IntelliJ IDEA, Eclipse, VS Code, etc.)
 
 
 ## Installation
 1. Clone this repository
-2. Configure the `application.properties` file in the `src/main/resources` directory with your PostgreSQL database credentials.
+2. Configure the `application.properties` file in the `src/main/resources` directory with your MySQL database credentials.
 3.
