@@ -11,6 +11,6 @@ This is a full-stack eCommerce application built with Spring Boot and MySQL. It 
 
 
 ## Installation
-1.
-2.
+1. Clone this repository
+2. Configure the `application.properties` file in the `src/main/resources` directory with your PostgreSQL database credentials.
 3.
