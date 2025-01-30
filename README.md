@@ -11,3 +11,6 @@ This is a full-stack eCommerce application built with Spring Boot and MySQL. It 
 
 
 ## Installation
+1.
+2.
+3.
