@@ -9,6 +9,12 @@ This is a full-stack eCommerce application built with Spring Boot and MySQL. It 
 ### Create a listing page
 <img width="1127" alt="Image" src="https://github.com/user-attachments/assets/87f624f3-1617-4587-8428-b8b58487c110" />
 
+## Features
+
+* __Product Listing and Management__ – Users can view all available products on the homepage and create new listings with details such as name, price, and description.
+* __MySQL Database Integration__ – The application uses MySQL for reliable data storage, ensuring product information is securely persisted.
+* __RESTful API Endpoints__ – Exposes well-structured API endpoints for seamless interaction between the frontend and backend.
+
 ## Prerequisites
 * JDK 23
 * MySQL
