@@ -6,6 +6,9 @@ This is a full-stack eCommerce application built with Spring Boot and MySQL. It 
 ### All products page
 <img width="1120" alt="Image" src="https://github.com/user-attachments/assets/d42b32fa-bc7a-4cbe-ac00-c5104d0d0dc3" />
 
+### Create a listing page
+<img width="1127" alt="Image" src="https://github.com/user-attachments/assets/87f624f3-1617-4587-8428-b8b58487c110" />
+
 ## Prerequisites
 * JDK 23
 * MySQL
