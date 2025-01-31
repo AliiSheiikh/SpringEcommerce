@@ -10,10 +10,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.InputStream;
@@ -92,5 +89,28 @@ public class ProductController {
         repo.save(product);
 
         return "redirect:/products";
+    }
+
+    @GetMapping("/edit")
+    public String showEditPage(Model model, @RequestParam int id){
+
+        try{
+            Product product = repo.findById(id).get();
+            model.addAttribute("product", product);
+
+            ProductDTO productDTO = new ProductDTO();
+            productDTO.setName(product.getName());
+            productDTO.setBrand(product.getBrand());
+            productDTO.setCategory(product.getCategory());
+            productDTO.setPrice(product.getPrice());
+            productDTO.setDescription(product.getDescription());
+
+            model.addAttribute("productDTO", productDTO);
+        }
+        catch(Exception ex){
+            System.out.println("Exception "+ ex.getMessage());
+            return "redirect/products";
+        }
+        return "products/EditProduct";
     }
 }
